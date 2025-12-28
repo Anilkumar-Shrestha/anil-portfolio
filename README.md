@@ -24,57 +24,57 @@ Before you begin, ensure you have the following installed:
 
 If you already have the code locally, navigate to the project directory:
 
-```bash
+\`\`\`bash
 cd qa-portfolio
-```
+\`\`\`
 
 If you need to initialize Git:
 
-```bash
+\`\`\`bash
 git init
-```
+\`\`\`
 
 ### 2. Install Dependencies
 
 Run one of the following commands based on your package manager:
 
-```bash
+\`\`\`bash
 # Using npm
 npm install
 
 # Or using yarn
 yarn install
-```
+\`\`\`
 
 If you encounter dependency errors, try:
 
-```bash
+\`\`\`bash
 npm install --legacy-peer-deps
-```
+\`\`\`
 
 ### 3. Run the Development Server
 
-```bash
+\`\`\`bash
 npm run dev
-```
+\`\`\`
 
 Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
 
 ### 4. Build for Production
 
-```bash
+\`\`\`bash
 npm run build
-```
+\`\`\`
 
 ### 5. Start Production Server
 
-```bash
+\`\`\`bash
 npm start
-```
+\`\`\`
 
 ## 📁 Project Structure
 
-```
+\`\`\`
 qa-portfolio/
 ├── app/
 │   ├── about/              # About page
@@ -92,7 +92,7 @@ qa-portfolio/
 ├── public/                 # Static assets (images, etc.)
 ├── package.json
 └── README.md
-```
+\`\`\`
 
 ## 🔧 Technologies Used
 
@@ -108,24 +108,24 @@ qa-portfolio/
 ### Option 1: Deploy with Vercel (Recommended)
 
 1. **Install Vercel CLI**:
-```bash
+\`\`\`bash
 npm install -g vercel
-```
+\`\`\`
 
 2. **Login to Vercel**:
-```bash
+\`\`\`bash
 vercel login
-```
+\`\`\`
 
 3. **Deploy**:
-```bash
+\`\`\`bash
 vercel
-```
+\`\`\`
 
 4. **Deploy to Production**:
-```bash
+\`\`\`bash
 vercel --prod
-```
+\`\`\`
 
 5. **Configure Custom Domain**:
    - Go to your Vercel project dashboard
@@ -148,47 +148,47 @@ Go to [GitHub](https://github.com/new) and create a new repository (can be priva
 
 ### 2. Add Remote Origin
 
-```bash
+\`\`\`bash
 git remote add origin https://github.com/Anilkumar-Shrestha/qa-portfolio.git
-```
+\`\`\`
 
 Replace `qa-portfolio` with your repository name.
 
 ### 3. Stage All Files
 
-```bash
+\`\`\`bash
 git add .
-```
+\`\`\`
 
 ### 4. Commit Your Changes
 
-```bash
+\`\`\`bash
 git commit -m "Initial commit: QA Automation Portfolio"
-```
+\`\`\`
 
 ### 5. Push to GitHub
 
-```bash
+\`\`\`bash
 git branch -M main
 git push -u origin main
-```
+\`\`\`
 
 ### 6. For Future Updates
 
-```bash
+\`\`\`bash
 git add .
 git commit -m "Your commit message"
 git push
-```
+\`\`\`
 
 ## 🔒 Environment Variables
 
 If you add any API integrations (contact form backend, analytics, etc.), create a `.env.local` file:
 
-```bash
+\`\`\`bash
 # Example
 NEXT_PUBLIC_SITE_URL=https://anilkumarshrestha.com.np
-```
+\`\`\`
 
 **Note**: Never commit `.env.local` to GitHub. It's already in `.gitignore`.
 
@@ -216,25 +216,25 @@ Add new project objects to the `projects` array in `app/projects/page.tsx` and c
 ### Port Already in Use
 
 If port 3000 is occupied:
-```bash
+\`\`\`bash
 npm run dev -- -p 3001
-```
+\`\`\`
 
 ### Build Errors
 
 Clear cache and reinstall:
-```bash
+\`\`\`bash
 rm -rf node_modules package-lock.json .next
 npm install
 npm run build
-```
+\`\`\`
 
 ### Dependency Conflicts
 
 Use legacy peer deps:
-```bash
+\`\`\`bash
 npm install --legacy-peer-deps
-```
+\`\`\`
 
 ## 📧 Contact
 
