@@ -4,6 +4,8 @@ const nextConfig = {
   swcMinify: true,
   experimental: {
     appDir: true,
+    // disable font optimization
+  optimizeFonts: false,
   },
 };
 
