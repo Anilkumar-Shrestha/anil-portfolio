@@ -1,4 +1,3 @@
-// app/sitemap.ts
 import type { MetadataRoute } from "next";
 
 const baseUrl = "https://anilkumarshrestha.com.np";
@@ -8,34 +7,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   return [
     {
-      url: `${baseUrl}`,
+      url: baseUrl,
       lastModified: currentDate,
-      changeFrequency: "monthly",
-      priority: 1,
     },
     {
       url: `${baseUrl}/about`,
       lastModified: currentDate,
-      changeFrequency: "monthly",
-      priority: 0.8,
     },
     {
       url: `${baseUrl}/experience`,
       lastModified: currentDate,
-      changeFrequency: "monthly",
-      priority: 0.8,
     },
     {
       url: `${baseUrl}/projects`,
       lastModified: currentDate,
-      changeFrequency: "monthly",
-      priority: 0.8,
     },
     {
       url: `${baseUrl}/contact`,
       lastModified: currentDate,
-      changeFrequency: "monthly",
-      priority: 0.7,
     },
   ];
 }
