@@ -4,8 +4,9 @@ import Link from "next/link"
 import type React from "react"
 import { Github, Linkedin, Mail } from "lucide-react"
 
-const inter = Inter({ subsets: ["latin"], variable: "--font-sans" })
-const jetbrainsMono = JetBrains_Mono({ subsets: ["latin"], variable: "--font-mono" })
+const inter = Inter({ subsets: ["latin"], variable: "--font-sans", display: "swap", preload: false });
+const jetbrainsMono = JetBrains_Mono({ subsets: ["latin"], variable: "--font-mono", display: "swap", preload: false });
+
 
 export const metadata = {
   metadataBase: new URL("https://anilkumarshrestha.com.np"),
