@@ -7,6 +7,7 @@ const badgeVariants = tv({
   variants: {
     variant: {
       default: "bg-gray-100 text-gray-800",
+      secondary: "bg-secondary text-secondary-foreground", 
       // add other variants
     },
   },
