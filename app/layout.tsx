@@ -10,7 +10,7 @@ const firaCode = Fira_Code({
   variable: "--font-mono",
   display: "swap",
   preload: true,
-  weights: [400, 500, 700],
+  weight: ["400", "500", "700"],
 })
 
 export const metadata = {
