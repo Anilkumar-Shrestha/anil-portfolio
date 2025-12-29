@@ -4,9 +4,8 @@ import Link from "next/link"
 import type React from "react"
 import { Github, Linkedin, Mail } from "lucide-react"
 
-const inter = Inter({ subsets: ["latin"], variable: "--font-sans", display: "swap", preload: false });
-const jetbrainsMono = JetBrains_Mono({ subsets: ["latin"], variable: "--font-mono", display: "swap", preload: false });
-
+const inter = Inter({ subsets: ["latin"], variable: "--font-sans", display: "swap", preload: false })
+const jetbrainsMono = JetBrains_Mono({ subsets: ["latin"], variable: "--font-mono", display: "swap", preload: false })
 
 export const metadata = {
   metadataBase: new URL("https://anilkumarshrestha.com.np"),
@@ -42,7 +41,7 @@ export const metadata = {
     description:
       "Portfolio of Anil Kumar Shrestha - Senior QA Automation Engineer specializing in test automation, CI/CD, and quality assurance",
   },
-    generator: 'v0.app'
+  generator: "v0.app",
 }
 
 export default function RootLayout({
@@ -78,7 +77,7 @@ function Header() {
               </Link>
             </li>
             <li>
-              <Link href="/#experience" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+              <Link href="/experience" className="text-sm text-muted-foreground hover:text-primary transition-colors">
                 Experience
               </Link>
             </li>
