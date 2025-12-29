@@ -1,11 +1,17 @@
 import "./globals.css"
-import { Inter, JetBrains_Mono } from "next/font/google"
+import { Inter, Fira_Code } from "next/font/google"
 import Link from "next/link"
 import type React from "react"
 import { Github, Linkedin, Mail } from "lucide-react"
 
-const inter = Inter({ subsets: ["latin"], variable: "--font-sans", display: "swap", preload: false })
-const jetbrainsMono = JetBrains_Mono({ subsets: ["latin"], variable: "--font-mono", display: "swap", preload: false })
+const inter = Inter({ subsets: ["latin"], variable: "--font-sans", display: "swap", preload: true })
+const firaCode = Fira_Code({
+  subsets: ["latin"],
+  variable: "--font-mono",
+  display: "swap",
+  preload: true,
+  weights: [400, 500, 700],
+})
 
 export const metadata = {
   metadataBase: new URL("https://anilkumarshrestha.com.np"),
@@ -51,7 +57,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className={`${inter.variable} ${jetbrainsMono.variable} font-sans antialiased`}>
+      <body className={`${inter.variable} ${firaCode.variable} font-sans antialiased`}>
         <div className="min-h-screen flex flex-col">
           <Header />
           <main className="flex-grow">{children}</main>
