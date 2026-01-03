@@ -2,11 +2,9 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  experimental: {
-    appDir: true,
-    // disable font optimization
+  // appDir (app router) is enabled by default in modern Next.js versions
+  // Move `optimizeFonts` to top-level and remove deprecated experimental flags
   optimizeFonts: false,
-  },
 };
 
 export default nextConfig;
