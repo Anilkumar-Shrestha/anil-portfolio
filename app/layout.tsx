@@ -127,7 +127,7 @@ function Footer() {
               <Linkedin className="h-5 w-5" />
             </a>
             <a
-              href="mailto:anil@anilkumarshrestha.com.np"
+              href="mailto:kumarshresthaanil@gmail.com"
               className="text-muted-foreground hover:text-primary transition-colors"
             >
               <Mail className="h-5 w-5" />

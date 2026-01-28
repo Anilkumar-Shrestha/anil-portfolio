@@ -122,10 +122,10 @@ export default function ContactClient() {
                   <div>
                     <p className="font-medium mb-1">Email</p>
                     <a
-                      href="mailto:anil@anilkumarshrestha.com.np"
+                      href="mailto:kumarshresthaanil@gmail.com"
                       className="text-muted-foreground hover:text-primary transition-colors"
                     >
-                      anil@anilkumarshrestha.com.np
+                      kumarshresthaanil@gmail.com
                     </a>
                   </div>
                 </div>
